@@ -24,6 +24,10 @@ allprojects {
 
     compile 'info.guardianproject:netcipher:1.2.0'
 
+### CamCipher: https://guardianproject.info/code/camcipher
+
+    compile 'info.guardianproject:camcipher:2.0.1'
+
 ### Android FFMPEG Java Library
 
     compile 'info.guardianproject:android-ffmpeg-java:1.0.0'
