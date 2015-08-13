@@ -20,11 +20,15 @@ allprojects {
 }
 ```
 
-### NetCipher: https://guardianproject.info/code/netcipher
+### NetCipher
+
+More info at https://guardianproject.info/code/netcipher
 
     compile 'info.guardianproject:netcipher:1.2.0'
 
-### CamCipher: https://guardianproject.info/code/camcipher
+### CamCipher
+
+More info at https://github.com/guardianproject/camcipher
 
     compile 'info.guardianproject:camcipher:2.0.1'
 
