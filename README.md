@@ -6,13 +6,15 @@ Our Maven repository is hosted here on Github at this URL:
 https://raw.githubusercontent.com/guardianproject/gpmaven/master
 
 To add it, follow this example below, to add it into your build.gradle file:
- 
+
+``` 
 allprojects {
     repositories {
 	...
         maven { url "https://raw.githubusercontent.com/guardianproject/gpmaven/master" }
     }
 }
+```
 
 ### NetCipher: https://guardianproject.info/code/netcipher
 
