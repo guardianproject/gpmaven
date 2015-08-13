@@ -1,4 +1,8 @@
-# Guardian Project Maven Android Repository
+# Guardian Project Maven Repo
+
+For all of your open-source secure, private and anonymous Gradle-powered needs!
+
+Please visit our "Code" site to learn more about all the libraries in our CipherKit platform: https://guardianproject.info/code
 
 ## Add the Repository to Your Gradle Setup 
 
