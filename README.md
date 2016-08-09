@@ -20,11 +20,8 @@ allprojects {
 }
 ```
 
-### NetCipher
-
-More info at https://guardianproject.info/code/netcipher
-
-    compile 'info.guardianproject:netcipher:1.2.0'
+### NetCipher 
+You can find the gradle information at: https://guardianproject.info/code/netcipher
 
 ### CamCipher
 
