@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>info.guardianproject</groupId>
-  <artifactId>libsecureshare</artifactId>
+  <artifactId>facebookonion</artifactId>
   <versioning>
     <release>0.1.2</release>
     <versions>

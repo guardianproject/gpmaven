@@ -123,7 +123,7 @@
     </dependency>
     <dependency>
       <groupId>LibSecureShare.extern</groupId>
-      <artifactId>facebook</artifactId>
+      <artifactId>facebookonion</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
