@@ -8,15 +8,15 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.android.support</groupId>
-      <artifactId>support-v4</artifactId>
-      <version>23.1.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.github.n8fr8</groupId>
       <artifactId>NetCipher</artifactId>
       <version>n8fr8-dev-release</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>23.1.0</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
