@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>info.guardianproject</groupId>
   <artifactId>libsecureshare</artifactId>
-  <version>0.1.10</version>
+  <version>0.1.19</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
