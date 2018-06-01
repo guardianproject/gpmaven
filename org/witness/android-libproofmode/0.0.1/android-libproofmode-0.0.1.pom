@@ -57,7 +57,7 @@
     </dependency>
     <dependency>
       <groupId>ProofMode</groupId>
-      <artifactId>java-opentimestamps</artifactId>
+      <artifactId>opentimestamps</artifactId>
       <version>unspecified</version>
       <scope>compile</scope>
     </dependency>
