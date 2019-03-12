@@ -3,11 +3,12 @@
   <groupId>info.pluggabletransports.aptds</groupId>
   <artifactId>apt-meek-obfs4-legacy</artifactId>
   <versioning>
-    <release>1.0.4</release>
+    <release>1.0.4a</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.4</version>
+      <version>1.0.4a</version>
     </versions>
-    <lastUpdated>20190312175625</lastUpdated>
+    <lastUpdated>20190312201616</lastUpdated>
   </versioning>
 </metadata>
