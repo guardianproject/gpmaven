@@ -10,7 +10,7 @@
     <dependency>
       <groupId>info.pluggabletransports.aptds</groupId>
       <artifactId>apt-dispatch-library</artifactId>
-      <version>1.0.4</version>
+      <version>1.0.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
