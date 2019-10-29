@@ -3,7 +3,7 @@
   <groupId>org.torproject</groupId>
   <artifactId>tor-android-binary</artifactId>
   <versioning>
-    <release>0.4.1.5-rc</release>
+    <release>0.4.1.6-dev</release>
     <versions>
       <version>0.3.1</version>
       <version>0.3.1.9</version>
@@ -26,7 +26,8 @@
       <version>0.4.0.4-rc</version>
       <version>0.4.1.5</version>
       <version>0.4.1.5-rc</version>
+      <version>0.4.1.6-dev</version>
     </versions>
-    <lastUpdated>20190910024956</lastUpdated>
+    <lastUpdated>20191029181127</lastUpdated>
   </versioning>
 </metadata>
