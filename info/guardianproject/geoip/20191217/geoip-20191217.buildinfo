@@ -1,0 +1,21 @@
+buildinfo.version=0.1
+
+name=geoip
+group-id=info.guardianproject
+artifact-id=geoip
+version=20191217
+
+source.scm.uri=scm:git:https://git.torproject.org/tor.git
+source.scm.tag=HEAD
+
+build-tool=python3
+python3.rebuild-args=mmdb-convert.py GeoLite2-Country.mmdb --make-maven-artifacts
+
+os.name=linux
+
+outputs.0.filename=geoip-20191217.jar
+outputs.0.length=1839780
+outputs.0.checksums.sha512=8a430c274dd0b40dc2b58c6da48be75b00cac502cf3cb3b63ea199454634d6af4f50f2873e3197c8034e428f540da977286c01e6bdb9892f630ffe90c68fe01f
+outputs.1.filename=geoip-20191217-sources.jar
+outputs.1.length=2008959
+outputs.1.checksums.sha512=904c9e2922166da5dc20ff39deee5cfabc2f2e86186278c143357e33a77f35d54524e7f0a8d4f0293e3b7db09c3d2c5cf010063082cc28f07f289fcf934e4089
