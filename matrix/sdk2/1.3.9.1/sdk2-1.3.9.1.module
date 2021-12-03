@@ -1,0 +1,302 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "matrix",
+    "module": "sdk2",
+    "version": "1.3.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.realm",
+          "module": "realm-android-library",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-android-kotlin-extensions",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-annotations",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk2-1.3.9.1.aar",
+          "url": "sdk2-1.3.9.1.aar",
+          "size": 8872959,
+          "sha512": "afb78e1ffe5d1efc1daabdd5f0761fb3701e1ec9a90cd229f0ce1bf480d118372edc94d5c6d7458a7af3981b11ee444b8a1d163f60310d5683490d323f5f53c7",
+          "sha256": "65ebd974666df0073cd97db442d1222ee3b5455f6cf90431d8e092dfaea4526f",
+          "sha1": "88105a32e576b24211cb1ac4390658fc1798c452",
+          "md5": "d77c069729dd711274bb52644114d20a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-android-library",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-android-kotlin-extensions",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "io.realm",
+          "module": "realm-annotations",
+          "version": {
+            "requires": "10.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-bom",
+          "version": {
+            "requires": "4.9.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp"
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor"
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection"
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "io.noties.markwon",
+          "module": "core",
+          "version": {
+            "requires": "4.6.2"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "com.github.Zhuinden",
+          "module": "realm-monarchy",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "io.arrow-kt",
+          "module": "arrow-core",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "io.arrow-kt",
+          "module": "arrow-instances-core",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "org.matrix.gitlab.matrix-org",
+          "module": "olm",
+          "version": {
+            "requires": "3.2.6"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.40.3"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.facebook.stetho",
+          "module": "stetho-okhttp3",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.otaliastudios",
+          "module": "transcoder",
+          "version": {
+            "requires": "0.10.4"
+          }
+        },
+        {
+          "group": "org.apache.sanselan",
+          "module": "sanselan",
+          "version": {
+            "requires": "0.97-incubator"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.12.38"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk2-1.3.9.1.aar",
+          "url": "sdk2-1.3.9.1.aar",
+          "size": 8872959,
+          "sha512": "afb78e1ffe5d1efc1daabdd5f0761fb3701e1ec9a90cd229f0ce1bf480d118372edc94d5c6d7458a7af3981b11ee444b8a1d163f60310d5683490d323f5f53c7",
+          "sha256": "65ebd974666df0073cd97db442d1222ee3b5455f6cf90431d8e092dfaea4526f",
+          "sha1": "88105a32e576b24211cb1ac4390658fc1798c452",
+          "md5": "d77c069729dd711274bb52644114d20a"
+        }
+      ]
+    }
+  ]
+}
