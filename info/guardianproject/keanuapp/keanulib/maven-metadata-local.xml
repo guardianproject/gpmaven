@@ -3,8 +3,8 @@
   <groupId>info.guardianproject.keanuapp</groupId>
   <artifactId>keanulib</artifactId>
   <versioning>
-    <latest>0.0.5.70</latest>
-    <release>0.0.5.70</release>
+    <latest>0.0.5.71</latest>
+    <release>0.0.5.71</release>
     <versions>
       <version>0.0.5.60</version>
       <version>0.0.5.61</version>
@@ -16,7 +16,8 @@
       <version>0.0.5.68</version>
       <version>0.0.5.69</version>
       <version>0.0.5.70</version>
+      <version>0.0.5.71</version>
     </versions>
-    <lastUpdated>20220216214745</lastUpdated>
+    <lastUpdated>20220217215412</lastUpdated>
   </versioning>
 </metadata>
