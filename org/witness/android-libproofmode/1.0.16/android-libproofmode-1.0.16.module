@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.witness",
+    "module": "android-libproofmode",
+    "version": "1.0.16",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.16.aar",
+          "url": "android-libproofmode-1.0.16.aar",
+          "size": 71428,
+          "sha512": "f122e9f57f666ea2f7fe21b18c3997713102171478001c0fc11830e4c25b5e9d6edb781b3cbb7eb667beab691a5fbc8b1f6831d7417c1780acd97c37e8778b88",
+          "sha256": "a595b33bfad27c4969bc3fce4bd22c2c2a632c3af0fd64b85d7f575a87c84f7c",
+          "sha1": "d39d0d9029cb8eed8067898326492966c077378a",
+          "md5": "b36c40e65babce844bc2e513bc4594b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-safetynet",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.eternitywall",
+          "module": "java-opentimestamps",
+          "version": {
+            "requires": "1.17"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.json",
+              "module": "*"
+            },
+            {
+              "group": "org.bitcoinj",
+              "module": "*"
+            },
+            {
+              "group": "com.google.protobuf",
+              "module": "*"
+            },
+            {
+              "group": "net.jcip",
+              "module": "*"
+            },
+            {
+              "group": "commons-cli",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.16.aar",
+          "url": "android-libproofmode-1.0.16.aar",
+          "size": 71428,
+          "sha512": "f122e9f57f666ea2f7fe21b18c3997713102171478001c0fc11830e4c25b5e9d6edb781b3cbb7eb667beab691a5fbc8b1f6831d7417c1780acd97c37e8778b88",
+          "sha256": "a595b33bfad27c4969bc3fce4bd22c2c2a632c3af0fd64b85d7f575a87c84f7c",
+          "sha1": "d39d0d9029cb8eed8067898326492966c077378a",
+          "md5": "b36c40e65babce844bc2e513bc4594b8"
+        }
+      ]
+    }
+  ]
+}
