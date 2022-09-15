@@ -3,12 +3,13 @@
   <groupId>info.guardianproject</groupId>
   <artifactId>tor-android</artifactId>
   <versioning>
-    <release>0.4.6.10-6-g9ce60d02</release>
+    <release>0.4.7.8.1</release>
     <versions>
       <version>0.4.6.10</version>
       <version>0.4.6.10-4-gdc2e19e8</version>
       <version>0.4.6.10-6-g9ce60d02</version>
+      <version>0.4.7.8.1</version>
     </versions>
-    <lastUpdated>20220423133401</lastUpdated>
+    <lastUpdated>20220915194707</lastUpdated>
   </versioning>
 </metadata>
