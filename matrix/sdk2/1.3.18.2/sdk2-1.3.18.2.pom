@@ -16,7 +16,7 @@
       <dependency>
         <groupId>com.squareup.okhttp3</groupId>
         <artifactId>okhttp-bom</artifactId>
-        <version>4.9.3</version>
+        <version>4.10.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -26,67 +26,67 @@
     <dependency>
       <groupId>io.realm</groupId>
       <artifactId>realm-android-library</artifactId>
-      <version>10.9.0</version>
+      <version>10.11.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.realm</groupId>
       <artifactId>realm-android-kotlin-extensions</artifactId>
-      <version>10.9.0</version>
+      <version>10.11.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.realm</groupId>
       <artifactId>realm-annotations</artifactId>
-      <version>10.9.0</version>
+      <version>10.11.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.atlassian.commonmark</groupId>
+      <artifactId>commonmark</artifactId>
+      <version>0.13.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib-jdk8</artifactId>
-      <version>1.5.31</version>
+      <version>1.6.21</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-parcelize-runtime</artifactId>
-      <version>1.5.31</version>
+      <version>1.6.21</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-core</artifactId>
-      <version>1.5.2</version>
+      <version>1.6.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.jetbrains.kotlinx</groupId>
       <artifactId>kotlinx-coroutines-android</artifactId>
-      <version>1.5.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.appcompat</groupId>
-      <artifactId>appcompat</artifactId>
-      <version>1.4.0</version>
+      <version>1.6.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
       <artifactId>core-ktx</artifactId>
-      <version>1.7.0</version>
+      <version>1.8.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-common</artifactId>
-      <version>2.4.0</version>
+      <version>2.5.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-process</artifactId>
-      <version>2.4.0</version>
+      <version>2.5.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -112,20 +112,15 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>okhttp-urlconnection</artifactId>
+      <groupId>com.squareup.moshi</groupId>
+      <artifactId>moshi</artifactId>
+      <version>1.13.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.squareup.moshi</groupId>
       <artifactId>moshi-adapters</artifactId>
-      <version>1.12.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.noties.markwon</groupId>
-      <artifactId>core</artifactId>
-      <version>4.6.2</version>
+      <version>1.13.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -141,33 +136,27 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>androidx.preference</groupId>
+      <artifactId>preference-ktx</artifactId>
+      <version>1.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.work</groupId>
       <artifactId>work-runtime-ktx</artifactId>
       <version>2.7.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>io.arrow-kt</groupId>
-      <artifactId>arrow-core</artifactId>
-      <version>0.8.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.arrow-kt</groupId>
-      <artifactId>arrow-instances-core</artifactId>
-      <version>0.8.2</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.matrix.android</groupId>
       <artifactId>olm-sdk</artifactId>
-      <version>3.2.10</version>
+      <version>3.2.12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.google.dagger</groupId>
       <artifactId>dagger</artifactId>
-      <version>2.40.5</version>
+      <version>2.42</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -197,7 +186,7 @@
     <dependency>
       <groupId>com.googlecode.libphonenumber</groupId>
       <artifactId>libphonenumber</artifactId>
-      <version>8.12.42</version>
+      <version>8.12.55</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

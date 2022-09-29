@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.3.3"
+      "version": "7.5.1"
     }
   },
   "variants": [
     {
-      "name": "releaseApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -27,28 +27,35 @@
           "group": "io.realm",
           "module": "realm-android-library",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
           }
         },
         {
           "group": "io.realm",
           "module": "realm-android-kotlin-extensions",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
           }
         },
         {
           "group": "io.realm",
           "module": "realm-annotations",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
+          }
+        },
+        {
+          "group": "com.atlassian.commonmark",
+          "module": "commonmark",
+          "version": {
+            "requires": "0.13.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.5.31"
+            "requires": "1.6.21"
           }
         }
       ],
@@ -56,16 +63,16 @@
         {
           "name": "sdk2-1.3.18.2.aar",
           "url": "sdk2-1.3.18.2.aar",
-          "size": 9026621,
-          "sha512": "561a790f2f3716c4b5057ef1dfcebfd99f4aadd3837d635d5cbeeada380567bdb8d02b98f23ac970ea3a3369811f8fc941426b8448eba3f0e150e749531beac9",
-          "sha256": "b31d4a026ac89a508ad7067a066b1948a209dbb588d774ad391427e11c15fb7e",
-          "sha1": "620d197b962d1db873bba9ec700b99ee93a01922",
-          "md5": "c0cf9d84d0ff4232c0e0b0a0669dbb8d"
+          "size": 9740739,
+          "sha512": "a339642173e4c711d3bcc257b56b99c612af7a52c690cce044cba910ee6cf90886bbfcb53f1240ebb23790ff608d2cae8b6ad6eb3fa9416e8296e4f38d55474e",
+          "sha256": "950d773fd630447822e70103c2e8ecc1ca78fb6c58d796391fd40b4e8747a4af",
+          "sha1": "c102632af89e176a0c937bbbb87aa7be0ada6731",
+          "md5": "9b34d466797bf7f80e9afd78f855dd61"
         }
       ]
     },
     {
-      "name": "releaseRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -77,77 +84,77 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-parcelize-runtime",
           "version": {
-            "requires": "1.5.31"
+            "requires": "1.6.21"
           }
         },
         {
           "group": "io.realm",
           "module": "realm-android-library",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
           }
         },
         {
           "group": "io.realm",
           "module": "realm-android-kotlin-extensions",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
           }
         },
         {
           "group": "io.realm",
           "module": "realm-annotations",
           "version": {
-            "requires": "10.9.0"
+            "requires": "10.11.1"
+          }
+        },
+        {
+          "group": "com.atlassian.commonmark",
+          "module": "commonmark",
+          "version": {
+            "requires": "0.13.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.5.31"
+            "requires": "1.6.21"
           }
         },
         {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-coroutines-core",
           "version": {
-            "requires": "1.5.2"
+            "requires": "1.6.4"
           }
         },
         {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-coroutines-android",
           "version": {
-            "requires": "1.5.2"
-          }
-        },
-        {
-          "group": "androidx.appcompat",
-          "module": "appcompat",
-          "version": {
-            "requires": "1.4.0"
+            "requires": "1.6.4"
           }
         },
         {
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
-            "requires": "1.7.0"
+            "requires": "1.8.0"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-common",
           "version": {
-            "requires": "2.4.0"
+            "requires": "2.5.1"
           }
         },
         {
           "group": "androidx.lifecycle",
           "module": "lifecycle-process",
           "version": {
-            "requires": "2.4.0"
+            "requires": "2.5.1"
           }
         },
         {
@@ -168,7 +175,7 @@
           "group": "com.squareup.okhttp3",
           "module": "okhttp-bom",
           "version": {
-            "requires": "4.9.3"
+            "requires": "4.10.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -184,21 +191,17 @@
           "module": "logging-interceptor"
         },
         {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp-urlconnection"
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.13.0"
+          }
         },
         {
           "group": "com.squareup.moshi",
           "module": "moshi-adapters",
           "version": {
-            "requires": "1.12.0"
-          }
-        },
-        {
-          "group": "io.noties.markwon",
-          "module": "core",
-          "version": {
-            "requires": "4.6.2"
+            "requires": "1.13.0"
           }
         },
         {
@@ -216,6 +219,13 @@
           }
         },
         {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
@@ -223,31 +233,17 @@
           }
         },
         {
-          "group": "io.arrow-kt",
-          "module": "arrow-core",
-          "version": {
-            "requires": "0.8.2"
-          }
-        },
-        {
-          "group": "io.arrow-kt",
-          "module": "arrow-instances-core",
-          "version": {
-            "requires": "0.8.2"
-          }
-        },
-        {
           "group": "org.matrix.android",
           "module": "olm-sdk",
           "version": {
-            "requires": "3.2.10"
+            "requires": "3.2.12"
           }
         },
         {
           "group": "com.google.dagger",
           "module": "dagger",
           "version": {
-            "requires": "2.40.5"
+            "requires": "2.42"
           }
         },
         {
@@ -282,7 +278,7 @@
           "group": "com.googlecode.libphonenumber",
           "module": "libphonenumber",
           "version": {
-            "requires": "8.12.42"
+            "requires": "8.12.55"
           }
         }
       ],
@@ -290,11 +286,11 @@
         {
           "name": "sdk2-1.3.18.2.aar",
           "url": "sdk2-1.3.18.2.aar",
-          "size": 9026621,
-          "sha512": "561a790f2f3716c4b5057ef1dfcebfd99f4aadd3837d635d5cbeeada380567bdb8d02b98f23ac970ea3a3369811f8fc941426b8448eba3f0e150e749531beac9",
-          "sha256": "b31d4a026ac89a508ad7067a066b1948a209dbb588d774ad391427e11c15fb7e",
-          "sha1": "620d197b962d1db873bba9ec700b99ee93a01922",
-          "md5": "c0cf9d84d0ff4232c0e0b0a0669dbb8d"
+          "size": 9740739,
+          "sha512": "a339642173e4c711d3bcc257b56b99c612af7a52c690cce044cba910ee6cf90886bbfcb53f1240ebb23790ff608d2cae8b6ad6eb3fa9416e8296e4f38d55474e",
+          "sha256": "950d773fd630447822e70103c2e8ecc1ca78fb6c58d796391fd40b4e8747a4af",
+          "sha1": "c102632af89e176a0c937bbbb87aa7be0ada6731",
+          "md5": "9b34d466797bf7f80e9afd78f855dd61"
         }
       ]
     }
