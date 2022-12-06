@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.witness",
+    "module": "android-libproofmode",
+    "version": "1.0.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.19.aar",
+          "url": "android-libproofmode-1.0.19.aar",
+          "size": 69065,
+          "sha512": "fa7393642e537643898d1816c9dc6e1236435c28eee3ccd9a797eec4e1fc3b2df35ee9b4df23e963fea4bff37d35330284cb42164ee4f6b674e425024ba8f5b6",
+          "sha256": "8b71478bd81309f72d691701dd7860c571733add5e923965ab67c268d26672c8",
+          "sha1": "bfa0177fdc09b8ddf1de9feae497450e1527bdad",
+          "md5": "2e9bf86b569cc2a2a96d00e834d9338c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-safetynet",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.eternitywall",
+          "module": "java-opentimestamps",
+          "version": {
+            "requires": "1.20"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "*"
+            },
+            {
+              "group": "org.json",
+              "module": "*"
+            },
+            {
+              "group": "org.bitcoinj",
+              "module": "*"
+            },
+            {
+              "group": "org.glassfish.jaxb",
+              "module": "*"
+            },
+            {
+              "group": "com.google.protobuf",
+              "module": "*"
+            },
+            {
+              "group": "net.jcip",
+              "module": "*"
+            },
+            {
+              "group": "com.sun.xml",
+              "module": "*"
+            },
+            {
+              "group": "commons-cli",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.19.aar",
+          "url": "android-libproofmode-1.0.19.aar",
+          "size": 69065,
+          "sha512": "fa7393642e537643898d1816c9dc6e1236435c28eee3ccd9a797eec4e1fc3b2df35ee9b4df23e963fea4bff37d35330284cb42164ee4f6b674e425024ba8f5b6",
+          "sha256": "8b71478bd81309f72d691701dd7860c571733add5e923965ab67c268d26672c8",
+          "sha1": "bfa0177fdc09b8ddf1de9feae497450e1527bdad",
+          "md5": "2e9bf86b569cc2a2a96d00e834d9338c"
+        }
+      ]
+    }
+  ]
+}
