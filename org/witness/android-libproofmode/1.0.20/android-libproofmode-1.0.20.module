@@ -35,11 +35,11 @@
         {
           "name": "android-libproofmode-1.0.20.aar",
           "url": "android-libproofmode-1.0.20.aar",
-          "size": 71991,
-          "sha512": "e865c3c302ab6b1da0b6c6564ab007fa1215f6fe829db3053271f00877f6eeaa5c5769fe98db65ff73f5600fa99f6e547f3aa5013dd7233245c6199923624bf2",
-          "sha256": "272cd03d79f78092574a2001bc94d3a467e3cebfa19a93e0027492dbdddea935",
-          "sha1": "ffd05fac8b62506452e34cedb57177bff22227c2",
-          "md5": "02d0d827ac2f402b58c25f417d0c1cf0"
+          "size": 72246,
+          "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
+          "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",
+          "sha1": "b2d5581004ff4d5dd4fc43f95700f43958020c10",
+          "md5": "636311073cc978a54b2305a7ed7f0939"
         }
       ]
     },
@@ -53,17 +53,17 @@
       },
       "dependencies": [
         {
-          "group": "com.google.android.gms",
-          "module": "play-services-safetynet",
+          "group": "androidx.appcompat",
+          "module": "appcompat",
           "version": {
-            "requires": "18.0.1"
+            "requires": "1.5.1"
           }
         },
         {
-          "group": "com.google.guava",
-          "module": "listenablefuture",
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
           "version": {
-            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
+            "requires": "1.1.0"
           }
         },
         {
@@ -74,45 +74,11 @@
           }
         },
         {
-          "group": "com.eternitywall",
-          "module": "java-opentimestamps",
+          "group": "androidx.multidex",
+          "module": "multidex",
           "version": {
-            "requires": "1.20"
-          },
-          "excludes": [
-            {
-              "group": "org.slf4j",
-              "module": "*"
-            },
-            {
-              "group": "org.json",
-              "module": "*"
-            },
-            {
-              "group": "org.bitcoinj",
-              "module": "*"
-            },
-            {
-              "group": "org.glassfish.jaxb",
-              "module": "*"
-            },
-            {
-              "group": "com.google.protobuf",
-              "module": "*"
-            },
-            {
-              "group": "net.jcip",
-              "module": "*"
-            },
-            {
-              "group": "com.sun.xml",
-              "module": "*"
-            },
-            {
-              "group": "commons-cli",
-              "module": "*"
-            }
-          ]
+            "requires": "2.0.1"
+          }
         },
         {
           "group": "org.bouncycastle",
@@ -140,11 +106,11 @@
         {
           "name": "android-libproofmode-1.0.20.aar",
           "url": "android-libproofmode-1.0.20.aar",
-          "size": 71991,
-          "sha512": "e865c3c302ab6b1da0b6c6564ab007fa1215f6fe829db3053271f00877f6eeaa5c5769fe98db65ff73f5600fa99f6e547f3aa5013dd7233245c6199923624bf2",
-          "sha256": "272cd03d79f78092574a2001bc94d3a467e3cebfa19a93e0027492dbdddea935",
-          "sha1": "ffd05fac8b62506452e34cedb57177bff22227c2",
-          "md5": "02d0d827ac2f402b58c25f417d0c1cf0"
+          "size": 72246,
+          "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
+          "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",
+          "sha1": "b2d5581004ff4d5dd4fc43f95700f43958020c10",
+          "md5": "636311073cc978a54b2305a7ed7f0939"
         }
       ]
     }
