@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.witness",
+    "module": "android-libproofmode",
+    "version": "1.0.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.22.aar",
+          "url": "android-libproofmode-1.0.22.aar",
+          "size": 74119,
+          "sha512": "9639919732cefb67eb403c642d8be50c235c9bf0fd6303830295a43dc3bdac2418e4dd00b009fd2ab52c7104ecf678e741645b70a45d876a0ba6a7fdc5c3f5c5",
+          "sha256": "280c182703ddc0a62a9448c0142721dd159c097c5809ee5712231877ac6c07fc",
+          "sha1": "d1c9ad19353eec0d86ac457fbbae976b30a014c7",
+          "md5": "03e01dbb311650b68bd795e3f5d0314d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-libproofmode-1.0.22.aar",
+          "url": "android-libproofmode-1.0.22.aar",
+          "size": 74119,
+          "sha512": "9639919732cefb67eb403c642d8be50c235c9bf0fd6303830295a43dc3bdac2418e4dd00b009fd2ab52c7104ecf678e741645b70a45d876a0ba6a7fdc5c3f5c5",
+          "sha256": "280c182703ddc0a62a9448c0142721dd159c097c5809ee5712231877ac6c07fc",
+          "sha1": "d1c9ad19353eec0d86ac457fbbae976b30a014c7",
+          "md5": "03e01dbb311650b68bd795e3f5d0314d"
+        }
+      ]
+    }
+  ]
+}
