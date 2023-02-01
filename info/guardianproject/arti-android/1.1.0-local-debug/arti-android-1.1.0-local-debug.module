@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-android",
+    "version": "1.1.0-local-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arti-android-1.1.0-local-debug.aar",
+          "url": "arti-android-1.1.0-local-debug.aar",
+          "size": 37486540,
+          "sha512": "f3cbe17cc14229a41c9472ea640cbccb52f97df7c60f2f5266f242cbf005e543a5bbf722750d3136a2eae94e943dca447324b67451850ca6a721b77286fe1cdd",
+          "sha256": "52f03a874f3f32ded073a1f6e1dc7614685cb73ecec1943d1a2a9fccac77ee6f",
+          "sha1": "92104afe5dc13d1c7bcbbea9cf0fbd7399c293ad",
+          "md5": "c9c84ea44ff8be607a762d4b624a8021"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-android-1.1.0-local-debug.aar",
+          "url": "arti-android-1.1.0-local-debug.aar",
+          "size": 37486540,
+          "sha512": "f3cbe17cc14229a41c9472ea640cbccb52f97df7c60f2f5266f242cbf005e543a5bbf722750d3136a2eae94e943dca447324b67451850ca6a721b77286fe1cdd",
+          "sha256": "52f03a874f3f32ded073a1f6e1dc7614685cb73ecec1943d1a2a9fccac77ee6f",
+          "sha1": "92104afe5dc13d1c7bcbbea9cf0fbd7399c293ad",
+          "md5": "c9c84ea44ff8be607a762d4b624a8021"
+        }
+      ]
+    }
+  ]
+}
