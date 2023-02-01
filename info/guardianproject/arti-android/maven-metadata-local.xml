@@ -3,14 +3,16 @@
   <groupId>info.guardianproject</groupId>
   <artifactId>arti-android</artifactId>
   <versioning>
-    <latest>1.1.0-local-release</latest>
-    <release>1.1.0-local-release</release>
+    <latest>1.1.0.1-local-release</latest>
+    <release>1.1.0.1-local-release</release>
     <versions>
       <version>0.4.7.11-local-debug</version>
       <version>0.4.7.11-local-release</version>
       <version>1.1.0-local-debug</version>
       <version>1.1.0-local-release</version>
+      <version>1.1.0.1-local-debug</version>
+      <version>1.1.0.1-local-release</version>
     </versions>
-    <lastUpdated>20230201105941</lastUpdated>
+    <lastUpdated>20230201153457</lastUpdated>
   </versioning>
 </metadata>

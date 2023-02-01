@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-android",
+    "version": "1.1.0.1-local-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arti-android-1.1.0.1-local-debug.aar",
+          "url": "arti-android-1.1.0.1-local-debug.aar",
+          "size": 38745508,
+          "sha512": "49ee066216e92151540eb118deba7f3b1d7fdd9bd2425b55c7bfb51e9d2e0c3a6ff811ed86295aa2cdc8cac6c428e5d7a7652bb08d4e1e0ec5197e3af0d313f9",
+          "sha256": "7be136143665314df1260c54906b7451ba29a895ba43b13f7f0d8e5d7c452cc5",
+          "sha1": "7a8f3e22b1223df14b11d7a624dd6ecc264b7e32",
+          "md5": "c3b0b4b5e1f653376f3883efc2d6ae3c"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-android-1.1.0.1-local-debug.aar",
+          "url": "arti-android-1.1.0.1-local-debug.aar",
+          "size": 38745508,
+          "sha512": "49ee066216e92151540eb118deba7f3b1d7fdd9bd2425b55c7bfb51e9d2e0c3a6ff811ed86295aa2cdc8cac6c428e5d7a7652bb08d4e1e0ec5197e3af0d313f9",
+          "sha256": "7be136143665314df1260c54906b7451ba29a895ba43b13f7f0d8e5d7c452cc5",
+          "sha1": "7a8f3e22b1223df14b11d7a624dd6ecc264b7e32",
+          "md5": "c3b0b4b5e1f653376f3883efc2d6ae3c"
+        }
+      ]
+    }
+  ]
+}

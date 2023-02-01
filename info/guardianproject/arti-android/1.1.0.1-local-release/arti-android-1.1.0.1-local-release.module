@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-android",
+    "version": "1.1.0.1-local-release",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arti-android-1.1.0.1-local-release.aar",
+          "url": "arti-android-1.1.0.1-local-release.aar",
+          "size": 38745387,
+          "sha512": "1ec2379fd8035b711828d241f2daa0a13775c296a1f63791dbcf2e396b56f18c7398633d60f9e79b4bc21ca288ffc9158b18e1354c5d7c5c5179e05a54247808",
+          "sha256": "644b32a070070da702ff5822062afe81d3cf61dd7592a4de158b01352a725262",
+          "sha1": "8247b3e977f7648b893abecb780dce4044cd289a",
+          "md5": "1b794f8822dc23c7d5e241a3b42169ef"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-android-1.1.0.1-local-release.aar",
+          "url": "arti-android-1.1.0.1-local-release.aar",
+          "size": 38745387,
+          "sha512": "1ec2379fd8035b711828d241f2daa0a13775c296a1f63791dbcf2e396b56f18c7398633d60f9e79b4bc21ca288ffc9158b18e1354c5d7c5c5179e05a54247808",
+          "sha256": "644b32a070070da702ff5822062afe81d3cf61dd7592a4de158b01352a725262",
+          "sha1": "8247b3e977f7648b893abecb780dce4044cd289a",
+          "md5": "1b794f8822dc23c7d5e241a3b42169ef"
+        }
+      ]
+    }
+  ]
+}
