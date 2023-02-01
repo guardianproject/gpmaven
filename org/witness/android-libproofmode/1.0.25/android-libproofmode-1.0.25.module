@@ -3,14 +3,14 @@
   "component": {
     "group": "org.witness",
     "module": "android-libproofmode",
-    "version": "1.0.20",
+    "version": "1.0.25",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "7.3.3"
+      "version": "7.4"
     }
   },
   "variants": [
@@ -29,17 +29,24 @@
           "version": {
             "requires": "1.71"
           }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
         }
       ],
       "files": [
         {
-          "name": "android-libproofmode-1.0.20.aar",
-          "url": "android-libproofmode-1.0.20.aar",
-          "size": 72246,
-          "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
-          "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",
-          "sha1": "b2d5581004ff4d5dd4fc43f95700f43958020c10",
-          "md5": "636311073cc978a54b2305a7ed7f0939"
+          "name": "android-libproofmode-1.0.25.aar",
+          "url": "android-libproofmode-1.0.25.aar",
+          "size": 81536,
+          "sha512": "a478c5e043d6a85ec687cb9296457df179648cb6c179960c6a1001a320873e4d3a70472f59682bedb5fa7b2f1295b8a47e4a8f05bf6a25701efd8cbbe4034efe",
+          "sha256": "3629c7969ecdbafad02aadbd23d91826b40c2c35b8c54e2a9465a4db88b407fe",
+          "sha1": "8b3aed9bf0d0ae2b49c7b5887dae1ded301dabf5",
+          "md5": "6a52852292a2f11f074de88049e6ac53"
         }
       ]
     },
@@ -95,22 +102,36 @@
           }
         },
         {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
           "group": "org.bouncycastle",
           "module": "bcpg-jdk15to18",
           "version": {
             "requires": "1.71"
           }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
         }
       ],
       "files": [
         {
-          "name": "android-libproofmode-1.0.20.aar",
-          "url": "android-libproofmode-1.0.20.aar",
-          "size": 72246,
-          "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
-          "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",
-          "sha1": "b2d5581004ff4d5dd4fc43f95700f43958020c10",
-          "md5": "636311073cc978a54b2305a7ed7f0939"
+          "name": "android-libproofmode-1.0.25.aar",
+          "url": "android-libproofmode-1.0.25.aar",
+          "size": 81536,
+          "sha512": "a478c5e043d6a85ec687cb9296457df179648cb6c179960c6a1001a320873e4d3a70472f59682bedb5fa7b2f1295b8a47e4a8f05bf6a25701efd8cbbe4034efe",
+          "sha256": "3629c7969ecdbafad02aadbd23d91826b40c2c35b8c54e2a9465a4db88b407fe",
+          "sha1": "8b3aed9bf0d0ae2b49c7b5887dae1ded301dabf5",
+          "md5": "6a52852292a2f11f074de88049e6ac53"
         }
       ]
     }

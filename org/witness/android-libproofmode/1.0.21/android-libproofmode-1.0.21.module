@@ -3,7 +3,7 @@
   "component": {
     "group": "org.witness",
     "module": "android-libproofmode",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "android-libproofmode-1.0.20.aar",
-          "url": "android-libproofmode-1.0.20.aar",
+          "name": "android-libproofmode-1.0.21.aar",
+          "url": "android-libproofmode-1.0.21.aar",
           "size": 72246,
           "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
           "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",
@@ -104,8 +104,8 @@
       ],
       "files": [
         {
-          "name": "android-libproofmode-1.0.20.aar",
-          "url": "android-libproofmode-1.0.20.aar",
+          "name": "android-libproofmode-1.0.21.aar",
+          "url": "android-libproofmode-1.0.21.aar",
           "size": 72246,
           "sha512": "51cf170c3a12c86b072a46e2d5bc9cdcbe7bebf5837702e7004b4f1843446b6696867dbc2acf1ec082eb24bf122336de16bf2bf38c5cf36b6d0170559cd4da84",
           "sha256": "f164a5e0a988d24eed6a7c3a447951caa4dc12eefc269c282ff7f86ac783c638",

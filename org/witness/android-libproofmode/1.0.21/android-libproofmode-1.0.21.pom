@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.witness</groupId>
   <artifactId>android-libproofmode</artifactId>
-  <version>1.0.20</version>
+  <version>1.0.21</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
