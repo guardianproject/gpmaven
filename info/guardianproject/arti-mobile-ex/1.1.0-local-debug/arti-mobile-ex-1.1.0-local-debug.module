@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-mobile-ex",
+    "version": "1.1.0-local-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.1.0-local-debug.aar",
+          "url": "arti-mobile-ex-1.1.0-local-debug.aar",
+          "size": 46807460,
+          "sha512": "5cbb6639a468fe244c73afac397fcb1ab9657f4ea4628ed6f7ae32171e0dd93119d703f353bebdc81d3b5e46393dcb780df6d010c9e72b9cfcab6cee8a3cc3e4",
+          "sha256": "42c8d42480bebea6a83e60e86e996df8d65628474e5858cd36582f44555f8840",
+          "sha1": "fca12bf8e3dbe5eaf69a115fbfae68a93c29f511",
+          "md5": "cc665951a7668be416b742885d87a5a7"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.1.0-local-debug.aar",
+          "url": "arti-mobile-ex-1.1.0-local-debug.aar",
+          "size": 46807460,
+          "sha512": "5cbb6639a468fe244c73afac397fcb1ab9657f4ea4628ed6f7ae32171e0dd93119d703f353bebdc81d3b5e46393dcb780df6d010c9e72b9cfcab6cee8a3cc3e4",
+          "sha256": "42c8d42480bebea6a83e60e86e996df8d65628474e5858cd36582f44555f8840",
+          "sha1": "fca12bf8e3dbe5eaf69a115fbfae68a93c29f511",
+          "md5": "cc665951a7668be416b742885d87a5a7"
+        }
+      ]
+    }
+  ]
+}
