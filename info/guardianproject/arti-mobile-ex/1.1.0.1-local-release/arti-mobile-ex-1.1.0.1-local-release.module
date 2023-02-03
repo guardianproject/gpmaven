@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-mobile-ex",
+    "version": "1.1.0.1-local-release",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.1.0.1-local-release.aar",
+          "url": "arti-mobile-ex-1.1.0.1-local-release.aar",
+          "size": 46820526,
+          "sha512": "c6022caee8386ef40fb5a8fc6ce279ea29462fb7f57e9bb9cfa8dfb1f971e8d294378afa7d1d338bb4addfa64f0a90e41cc85e333e02657dbc182ce6968b7a2f",
+          "sha256": "51f21000844e0b0b7dc52b25cb04dd66f39a5ae9a5b61763c966434608a29f40",
+          "sha1": "16d0a4ec25b77ee216b770fa8dac6ec31462d423",
+          "md5": "9fdae11db858a0472d77c7492f161b79"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.1.0.1-local-release.aar",
+          "url": "arti-mobile-ex-1.1.0.1-local-release.aar",
+          "size": 46820526,
+          "sha512": "c6022caee8386ef40fb5a8fc6ce279ea29462fb7f57e9bb9cfa8dfb1f971e8d294378afa7d1d338bb4addfa64f0a90e41cc85e333e02657dbc182ce6968b7a2f",
+          "sha256": "51f21000844e0b0b7dc52b25cb04dd66f39a5ae9a5b61763c966434608a29f40",
+          "sha1": "16d0a4ec25b77ee216b770fa8dac6ec31462d423",
+          "md5": "9fdae11db858a0472d77c7492f161b79"
+        }
+      ]
+    }
+  ]
+}
