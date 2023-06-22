@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.proofmode",
+    "module": "android-opentimestamps",
+    "version": "1.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-opentimestamps-1.0.26.aar",
+          "url": "android-opentimestamps-1.0.26.aar",
+          "size": 93563,
+          "sha512": "0d50f5eacfc11124af498519439cecb6643d61299c1c94924e5c040e2394eff393983f512bdcd104cfc35480cc334f7f776367e3df067a54e58f692cd9e15a78",
+          "sha256": "9c3fc4836cb1563fc33a7d7725786addfbefb1c2973e857ddef8fac55f9406bb",
+          "sha1": "a73f5661f0bb3596165da444d4c5cfd1dea9b008",
+          "md5": "081871aeab560292c53051141df2f882"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.72"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "listenablefuture",
+          "version": {
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
+          }
+        },
+        {
+          "group": "org.bitcoinj",
+          "module": "bitcoinj-core",
+          "version": {
+            "requires": "0.14.7"
+          }
+        },
+        {
+          "group": "org.proofmode",
+          "module": "android-libproofmode",
+          "version": {
+            "requires": "1.0.26"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpg-jdk15to18",
+          "version": {
+            "requires": "1.71"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-opentimestamps-1.0.26.aar",
+          "url": "android-opentimestamps-1.0.26.aar",
+          "size": 93563,
+          "sha512": "0d50f5eacfc11124af498519439cecb6643d61299c1c94924e5c040e2394eff393983f512bdcd104cfc35480cc334f7f776367e3df067a54e58f692cd9e15a78",
+          "sha256": "9c3fc4836cb1563fc33a7d7725786addfbefb1c2973e857ddef8fac55f9406bb",
+          "sha1": "a73f5661f0bb3596165da444d4c5cfd1dea9b008",
+          "md5": "081871aeab560292c53051141df2f882"
+        }
+      ]
+    }
+  ]
+}
