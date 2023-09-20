@@ -3,7 +3,7 @@
   "component": {
     "group": "info.guardianproject.keanuapp",
     "module": "keanulib",
-    "version": "0.5.83",
+    "version": "0.5.85",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -74,8 +74,8 @@
       ],
       "files": [
         {
-          "name": "keanulib-0.5.83.aar",
-          "url": "keanulib-0.5.83.aar",
+          "name": "keanulib-0.5.85.aar",
+          "url": "keanulib-0.5.85.aar",
           "size": 3370373,
           "sha512": "10f787e7f673e2d31382a005d35121ef4cf206e67421e85a74661e7d0aa4dd70b21d71ff9b0fb1c4fa004b71118c4722e6ca340fcc586b6b3b871367b06a9466",
           "sha256": "f2b2c3a143c726ece304f9ea4d12eed2e5293f280413fa051a21b1528bc0163d",
@@ -620,8 +620,8 @@
       ],
       "files": [
         {
-          "name": "keanulib-0.5.83.aar",
-          "url": "keanulib-0.5.83.aar",
+          "name": "keanulib-0.5.85.aar",
+          "url": "keanulib-0.5.85.aar",
           "size": 3370373,
           "sha512": "10f787e7f673e2d31382a005d35121ef4cf206e67421e85a74661e7d0aa4dd70b21d71ff9b0fb1c4fa004b71118c4722e6ca340fcc586b6b3b871367b06a9466",
           "sha256": "f2b2c3a143c726ece304f9ea4d12eed2e5293f280413fa051a21b1528bc0163d",
