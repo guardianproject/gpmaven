@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.proofmode",
+    "module": "proofmode-c2pa",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "proofmode-c2pa-0.1.aar",
+          "url": "proofmode-c2pa-0.1.aar",
+          "size": 37287893,
+          "sha512": "80cc49a7093d23354f205a057953cfe8994200d2d561b38607bce7a083d637c8ce655c2bdd911b7646e471dc8dd1e34ad643fe6b890b6ea3d4067a5aac0d342c",
+          "sha256": "17e830580c6e679531669145fcec884cd1e17a95e3444179d96834f4f0b5fe4e",
+          "sha1": "35d9a59aa87d0ef4f9b440baa51a77f59f16c5fc",
+          "md5": "709d64d4234e1cfdcb0eeee936d5cc15"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "proofmode-c2pa-0.1.aar",
+          "url": "proofmode-c2pa-0.1.aar",
+          "size": 37287893,
+          "sha512": "80cc49a7093d23354f205a057953cfe8994200d2d561b38607bce7a083d637c8ce655c2bdd911b7646e471dc8dd1e34ad643fe6b890b6ea3d4067a5aac0d342c",
+          "sha256": "17e830580c6e679531669145fcec884cd1e17a95e3444179d96834f4f0b5fe4e",
+          "sha1": "35d9a59aa87d0ef4f9b440baa51a77f59f16c5fc",
+          "md5": "709d64d4234e1cfdcb0eeee936d5cc15"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "proofmode-c2pa-0.1-sources.jar",
+          "url": "proofmode-c2pa-0.1-sources.jar",
+          "size": 1218,
+          "sha512": "ecbcf797bde6895f6626ad057cbea658c5600f06b618f6648cb2ff448b933962f40434a60048590f86a29d9f99f44d6acf61d18f05508ffb11d2cf866cbe976a",
+          "sha256": "6da294709ffcd19fc049a8ab1d1cd3ed80b7896e5a35bdebb6d5b9c6d25bb782",
+          "sha1": "e11c5383ad054fb920ff1d29bd8c840511d19394",
+          "md5": "ce0b1916ed1fb2a12a7f9947e6d5f16b"
+        }
+      ]
+    }
+  ]
+}
