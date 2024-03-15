@@ -3,11 +3,12 @@
   <groupId>org.proofmode</groupId>
   <artifactId>android-libproofmode</artifactId>
   <versioning>
-    <latest>1.0.27</latest>
-    <release>1.0.27</release>
+    <latest>1.0.28-dev</latest>
+    <release>1.0.28-dev</release>
     <versions>
       <version>1.0.27</version>
+      <version>1.0.28-dev</version>
     </versions>
-    <lastUpdated>20240201144459</lastUpdated>
+    <lastUpdated>20240315182827</lastUpdated>
   </versioning>
 </metadata>
