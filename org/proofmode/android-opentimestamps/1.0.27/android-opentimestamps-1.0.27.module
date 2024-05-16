@@ -3,7 +3,7 @@
   "component": {
     "group": "org.proofmode",
     "module": "android-opentimestamps",
-    "version": "1.0.26",
+    "version": "1.0.27",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -39,8 +39,8 @@
       ],
       "files": [
         {
-          "name": "android-opentimestamps-1.0.26.aar",
-          "url": "android-opentimestamps-1.0.26.aar",
+          "name": "android-opentimestamps-1.0.27.aar",
+          "url": "android-opentimestamps-1.0.27.aar",
           "size": 82153,
           "sha512": "6b46329c7dea906b7e1f8f40aa850ad2e29350824e31ddea93ce0c2e593b09d575ff199220a1ac7a40f4d561900c78a1ae30cf89a29eb0e90042a4439b13c7a3",
           "sha256": "9ea4ff6fc61fa2420bb6a8b7cac4c959923897e3a25309ba4a7810bd66b21f5b",
@@ -144,8 +144,8 @@
       ],
       "files": [
         {
-          "name": "android-opentimestamps-1.0.26.aar",
-          "url": "android-opentimestamps-1.0.26.aar",
+          "name": "android-opentimestamps-1.0.27.aar",
+          "url": "android-opentimestamps-1.0.27.aar",
           "size": 82153,
           "sha512": "6b46329c7dea906b7e1f8f40aa850ad2e29350824e31ddea93ce0c2e593b09d575ff199220a1ac7a40f4d561900c78a1ae30cf89a29eb0e90042a4439b13c7a3",
           "sha256": "9ea4ff6fc61fa2420bb6a8b7cac4c959923897e3a25309ba4a7810bd66b21f5b",

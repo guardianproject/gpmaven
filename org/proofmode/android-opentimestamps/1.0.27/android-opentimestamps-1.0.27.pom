@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.proofmode</groupId>
   <artifactId>android-opentimestamps</artifactId>
-  <version>1.0.26</version>
+  <version>1.0.27</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
