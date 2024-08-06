@@ -3,8 +3,8 @@
   <groupId>info.guardianproject</groupId>
   <artifactId>arti-mobile-ex</artifactId>
   <versioning>
-    <latest>1.2.2.1</latest>
-    <release>1.2.2.1</release>
+    <latest>1.2.3</latest>
+    <release>1.2.3</release>
     <versions>
       <version>1.1.0-local-debug</version>
       <version>1.1.0-local-release</version>
@@ -16,7 +16,9 @@
       <version>1.2.2-local-release</version>
       <version>1.2.2.1-debug</version>
       <version>1.2.2.1</version>
+      <version>1.2.3-debug</version>
+      <version>1.2.3</version>
     </versions>
-    <lastUpdated>20240626031351</lastUpdated>
+    <lastUpdated>20240806170618</lastUpdated>
   </versioning>
 </metadata>

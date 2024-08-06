@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "arti-mobile-ex",
+    "version": "1.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.2.3.aar",
+          "url": "arti-mobile-ex-1.2.3.aar",
+          "size": 57349916,
+          "sha512": "9050ce66a22e8d8ef4633499eb0dbf6aa0a8e72045d53e737724653d9de4159d828e6cf81b821b9a26d698ae083ab49079c37d1897a6dde7d3f09b453afa22c1",
+          "sha256": "a780d7e3e887829571564079f7733eeabf3a77896f1ed6c6ea3dc40ca1c600e6",
+          "sha1": "65554ed24a21cabff33919f2528485a6c07da07a",
+          "md5": "d11473154b6bdc6f610aee396f78e66c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.2.3.aar",
+          "url": "arti-mobile-ex-1.2.3.aar",
+          "size": 57349916,
+          "sha512": "9050ce66a22e8d8ef4633499eb0dbf6aa0a8e72045d53e737724653d9de4159d828e6cf81b821b9a26d698ae083ab49079c37d1897a6dde7d3f09b453afa22c1",
+          "sha256": "a780d7e3e887829571564079f7733eeabf3a77896f1ed6c6ea3dc40ca1c600e6",
+          "sha1": "65554ed24a21cabff33919f2528485a6c07da07a",
+          "md5": "d11473154b6bdc6f610aee396f78e66c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "arti-mobile-ex-1.2.3-sources.jar",
+          "url": "arti-mobile-ex-1.2.3-sources.jar",
+          "size": 10071,
+          "sha512": "698ee3d12f4998dcb777557d01b783095618ded7b2b85b8296c27fdec068532553fa04f6062094d080a7746534f0efb6bf2f8c8d1a6ec4957e9e7d0eb22df2b1",
+          "sha256": "236b2b7348b8624f64a2d80ce33efe39a508f7d9dd50ef70e0a1168d514b5aa2",
+          "sha1": "05cc19cf1c6578f9a218e636968f37f2bffc7824",
+          "md5": "ac8ecb0342fe65108c5ca5dc3208ad1b"
+        }
+      ]
+    }
+  ]
+}
