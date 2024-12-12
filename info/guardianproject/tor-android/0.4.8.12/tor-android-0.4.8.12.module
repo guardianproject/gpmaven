@@ -42,11 +42,11 @@
         {
           "name": "tor-android-0.4.8.12.aar",
           "url": "tor-android-0.4.8.12.aar",
-          "size": 13378118,
-          "sha512": "11c97e5f695e3f266c6c977cb924b54448b0746368c1794e6c5ff9f31243037f068c5628dbb536f3a88d5dba3ef7686da22043beeefd377f0256607ebf05955a",
-          "sha256": "7b33304eb0333587c731d1630b9c3ad237ad08b6bf7e2e4fe4ff3e0fb7f1a49a",
-          "sha1": "971c7dc59ea39ac2b09fcc10eb7d4273d3e25697",
-          "md5": "3a0f34ad6e3dcec7edc3fd632597e3da"
+          "size": 13324376,
+          "sha512": "f69c50bf89682fdc781209c04fae3299fc1bce61beaadc57bb51d2cfaf2c55886f6507cc721c405d0ab12d580d744ff8cc6a430a487a72b11449e8cadbf59911",
+          "sha256": "d158334d247464aab386ef73f90663c60cfc35e60028c5ea9ad858c229d0d29d",
+          "sha1": "fceebc5085e8eac558010ea05990a7709690dcfc",
+          "md5": "2641411151a0b25d29e083ebd13db415"
         }
       ]
     },
@@ -78,11 +78,11 @@
         {
           "name": "tor-android-0.4.8.12.aar",
           "url": "tor-android-0.4.8.12.aar",
-          "size": 13378118,
-          "sha512": "11c97e5f695e3f266c6c977cb924b54448b0746368c1794e6c5ff9f31243037f068c5628dbb536f3a88d5dba3ef7686da22043beeefd377f0256607ebf05955a",
-          "sha256": "7b33304eb0333587c731d1630b9c3ad237ad08b6bf7e2e4fe4ff3e0fb7f1a49a",
-          "sha1": "971c7dc59ea39ac2b09fcc10eb7d4273d3e25697",
-          "md5": "3a0f34ad6e3dcec7edc3fd632597e3da"
+          "size": 13324376,
+          "sha512": "f69c50bf89682fdc781209c04fae3299fc1bce61beaadc57bb51d2cfaf2c55886f6507cc721c405d0ab12d580d744ff8cc6a430a487a72b11449e8cadbf59911",
+          "sha256": "d158334d247464aab386ef73f90663c60cfc35e60028c5ea9ad858c229d0d29d",
+          "sha1": "fceebc5085e8eac558010ea05990a7709690dcfc",
+          "md5": "2641411151a0b25d29e083ebd13db415"
         }
       ]
     }
