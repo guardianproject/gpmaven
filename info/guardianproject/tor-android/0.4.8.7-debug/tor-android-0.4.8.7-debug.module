@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "tor-android",
+    "version": "0.4.8.7-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.8.7-debug.aar",
+          "url": "tor-android-0.4.8.7-debug.aar",
+          "size": 12206757,
+          "sha512": "6bf510ad0b1da12056c94fd6f2aba4272253b4492c2aaeeac2979c066102d400627250b6932debd4dbac65ffb1a31dfde9e04bbc1926bef812305434ca1fca07",
+          "sha256": "20f60bc86adecf8d2ff3feb663ec8c7996ae6ee9c5ddcbfedf33d2fec659653b",
+          "sha1": "c399d7ba611e51d64d480cb8226eb9827e8b7890",
+          "md5": "75f66c066e0843ac86f009bed5eea23a"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.8.7-debug.aar",
+          "url": "tor-android-0.4.8.7-debug.aar",
+          "size": 12206757,
+          "sha512": "6bf510ad0b1da12056c94fd6f2aba4272253b4492c2aaeeac2979c066102d400627250b6932debd4dbac65ffb1a31dfde9e04bbc1926bef812305434ca1fca07",
+          "sha256": "20f60bc86adecf8d2ff3feb663ec8c7996ae6ee9c5ddcbfedf33d2fec659653b",
+          "sha1": "c399d7ba611e51d64d480cb8226eb9827e8b7890",
+          "md5": "75f66c066e0843ac86f009bed5eea23a"
+        }
+      ]
+    }
+  ]
+}
