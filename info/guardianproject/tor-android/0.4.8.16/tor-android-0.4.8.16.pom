@@ -16,8 +16,8 @@
   <url>https://github.com/guardianproject/tor-android</url>
   <licenses>
     <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <name>The 3-Clause BSD License</name>
+      <url>https://opensource.org/license/bsd-3-clause</url>
     </license>
   </licenses>
   <developers>

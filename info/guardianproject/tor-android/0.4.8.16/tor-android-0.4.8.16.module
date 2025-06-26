@@ -118,11 +118,11 @@
         {
           "name": "tor-android-0.4.8.16-javadoc.jar",
           "url": "tor-android-0.4.8.16-javadoc.jar",
-          "size": 300649,
-          "sha512": "8d44ba55354d1b74f7e4678d475a69de8d756ee0b73dc3fbe73bcc08dfa91889ed4f132cafeb0ae7bf3363dd36b830e9336c43c37bdbd1fbdb7be2dd7039b4f8",
-          "sha256": "3e1bc70728d77eed45b2ee5afca4a43eca2be01cdacffc2d2bf7f5cdd5902220",
-          "sha1": "4805bd6e8509b0f88cf871d5c060aa26d0b2680b",
-          "md5": "479d833b3ad34302556b79a65727b618"
+          "size": 300796,
+          "sha512": "8d334c04375dfb5d99bf1387d9f9835164e672cb5073f950ed8d534e2e060b1cb48712081525985a369abd3faf1ebc5071ff5f041f3b2315fa5875623dad1f24",
+          "sha256": "8382cd7f8765c17998b9be76d678da534bb4c085b35140f693a80c9c2a8be7fc",
+          "sha1": "da1cd88339d62e015acb221420bfbadc20aed324",
+          "md5": "6cf2173f1693ad243d55cd8e38d34d74"
         }
       ]
     }
