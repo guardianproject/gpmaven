@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.contentauth",
+    "module": "c2pa",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "c2pa-1.0.0-SNAPSHOT.aar",
+          "url": "c2pa-1.0.0-SNAPSHOT.aar",
+          "size": 32088512,
+          "sha512": "29fa1576b52255f1d084708bdff90b39905b83f250a2e0f44a41fc946762bf0a0a20bf23cfae90e35c351e9fdae9d9522ef8b15b59b3aa7e579148967ec8e27a",
+          "sha256": "dbc3bea7300edf1b31873890b60dfea9491314f06faf68895615244dc88dceab",
+          "sha1": "192e9034fdbbc9d798b2727924b39b5ade217e23",
+          "md5": "1bb88375ce52a4e685710b38ea1ce8c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.17.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "jna",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15to18",
+          "version": {
+            "requires": "1.81"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk15to18",
+          "version": {
+            "requires": "1.81"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "c2pa-1.0.0-SNAPSHOT.aar",
+          "url": "c2pa-1.0.0-SNAPSHOT.aar",
+          "size": 32088512,
+          "sha512": "29fa1576b52255f1d084708bdff90b39905b83f250a2e0f44a41fc946762bf0a0a20bf23cfae90e35c351e9fdae9d9522ef8b15b59b3aa7e579148967ec8e27a",
+          "sha256": "dbc3bea7300edf1b31873890b60dfea9491314f06faf68895615244dc88dceab",
+          "sha1": "192e9034fdbbc9d798b2727924b39b5ade217e23",
+          "md5": "1bb88375ce52a4e685710b38ea1ce8c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "c2pa-1.0.0-SNAPSHOT-sources.jar",
+          "url": "c2pa-1.0.0-SNAPSHOT-sources.jar",
+          "size": 86205,
+          "sha512": "acc631cd392fed6d36e43c7e082c04fec5e6a66cc81f7b331769f63cd8715788cb01826d49851a5ef3fe7fa6c1f7f9fa7c4c6ea1aa98a82d716f5d627186972f",
+          "sha256": "403305f6060838453fabc100326a099c9c0b12aeb4c135664727543de5ae784a",
+          "sha1": "e6fd1ef8b390f0f6ec7701e4c25f2212944e80cd",
+          "md5": "09b91ea7edddfbd64e795f624f2e3b79"
+        }
+      ]
+    }
+  ]
+}
