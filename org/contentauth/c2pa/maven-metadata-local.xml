@@ -3,10 +3,11 @@
   <groupId>org.contentauth</groupId>
   <artifactId>c2pa</artifactId>
   <versioning>
-    <latest>1.0.0-SNAPSHOT</latest>
+    <latest>1.0.1-SNAPSHOT</latest>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260107214006</lastUpdated>
+    <lastUpdated>20260109214347</lastUpdated>
   </versioning>
 </metadata>
