@@ -3,8 +3,8 @@
   <groupId>info.guardianproject</groupId>
   <artifactId>tor-android</artifactId>
   <versioning>
-    <latest>0.4.8.21.1</latest>
-    <release>0.4.8.21.1</release>
+    <latest>0.4.8.21.2</latest>
+    <release>0.4.8.21.2</release>
     <versions>
       <version>0.4.7.11-local-debug</version>
       <version>0.4.7.11-local-release</version>
@@ -36,7 +36,8 @@
       <version>0.4.8.19</version>
       <version>0.4.8.21</version>
       <version>0.4.8.21.1</version>
+      <version>0.4.8.21.2</version>
     </versions>
-    <lastUpdated>20251217211111</lastUpdated>
+    <lastUpdated>20260127171021</lastUpdated>
   </versioning>
 </metadata>
