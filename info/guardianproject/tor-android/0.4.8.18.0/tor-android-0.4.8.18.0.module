@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "tor-android",
+    "version": "0.4.8.18.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.8.18.0.aar",
+          "url": "tor-android-0.4.8.18.0.aar",
+          "size": 14973840,
+          "sha512": "c4191a1075a11a0cdbc20b98a73ff6d8d19175ce1bbf4a207a6600674393872c6bdffa085f07518ba9cd19244ba5fe8f192f328fa7aab2c440397e1199141088",
+          "sha256": "05643e178af889abaf996db16a382b2f8cc9d119671c7e5534b8aa7149241638",
+          "sha1": "16cfcac2af95800cf26748db157aee0e364221ff",
+          "md5": "f8c065122d3dd4e2eed1023224bd5156"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.8.18.0.aar",
+          "url": "tor-android-0.4.8.18.0.aar",
+          "size": 14973840,
+          "sha512": "c4191a1075a11a0cdbc20b98a73ff6d8d19175ce1bbf4a207a6600674393872c6bdffa085f07518ba9cd19244ba5fe8f192f328fa7aab2c440397e1199141088",
+          "sha256": "05643e178af889abaf996db16a382b2f8cc9d119671c7e5534b8aa7149241638",
+          "sha1": "16cfcac2af95800cf26748db157aee0e364221ff",
+          "md5": "f8c065122d3dd4e2eed1023224bd5156"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tor-android-0.4.8.18.0-sources.jar",
+          "url": "tor-android-0.4.8.18.0-sources.jar",
+          "size": 6843,
+          "sha512": "15f86706a148b5eba7100d72a17708d676c09b72a68a2f1eb91b20f5af37d07d542acc5d8c0adc5fbedac6eb374af967fadf70b6cacb2047e83f75076f763c9b",
+          "sha256": "b0770009caaee9d4a5e11276c2d5a85696409fc074d332efd17588c0c4f0574d",
+          "sha1": "3884a44b63009ebb2d295bdf5ec0dd58bec5163e",
+          "md5": "34ce911533b323beb27751168122f95c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tor-android-0.4.8.18.0-javadoc.jar",
+          "url": "tor-android-0.4.8.18.0-javadoc.jar",
+          "size": 300827,
+          "sha512": "18d26df0422cbba2e099e69ed882a07451d42a3c8d1f9377577c8be3c6a651cda6f7769ecdf996528bdd0ad00f2fe101d0a467d35da3a7996d9bd237018d6803",
+          "sha256": "c85495ed6316501c00ba0bdc11db3ee0abf6844d4b914ea3ad2d293c755dc5c4",
+          "sha1": "e4b9b1ecb11f5703bf3040e5dd9169f8c592ba64",
+          "md5": "20f1dad7b1419811667010ec6d51d40b"
+        }
+      ]
+    }
+  ]
+}
