@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "tor-android",
+    "version": "0.4.9.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.9.8.aar",
+          "url": "tor-android-0.4.9.8.aar",
+          "size": 12938548,
+          "sha512": "f08ff1aecfa220b79049b401411ff1b0de511a1c89c4ec3fcca100362912b7f12c0278b085ffba400b8908b632f2e025ade34b151714c6d8ae09e4042698112b",
+          "sha256": "f4f63bee6a4049b8fd746d5ff9790241f2d5b4196625bacfea3b241c68572f97",
+          "sha1": "1bef230c1ae1b3bf98740802e851262baafbae1c",
+          "md5": "6e044e88f25bb8de8283e9759f0da0d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "info.guardianproject",
+          "module": "jtorctl",
+          "version": {
+            "requires": "0.4.5.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tor-android-0.4.9.8.aar",
+          "url": "tor-android-0.4.9.8.aar",
+          "size": 12938548,
+          "sha512": "f08ff1aecfa220b79049b401411ff1b0de511a1c89c4ec3fcca100362912b7f12c0278b085ffba400b8908b632f2e025ade34b151714c6d8ae09e4042698112b",
+          "sha256": "f4f63bee6a4049b8fd746d5ff9790241f2d5b4196625bacfea3b241c68572f97",
+          "sha1": "1bef230c1ae1b3bf98740802e851262baafbae1c",
+          "md5": "6e044e88f25bb8de8283e9759f0da0d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tor-android-0.4.9.8-sources.jar",
+          "url": "tor-android-0.4.9.8-sources.jar",
+          "size": 6867,
+          "sha512": "9ca2e03743dd4a763bb2945aed6e8a831b89c7662f4ef2131761f8f7f177d6c188f96f2eb44a1006e3da92805369061012e751c5f338a08710a0e7697cf68f18",
+          "sha256": "cf9d074824b3eba9b455a05d8590f72e4a3f58737dc3c9e6da8fae4b6ab58ba1",
+          "sha1": "7de4530e6ee34baa3417830f70e19353a0cc2a1d",
+          "md5": "bc6c33491c8f0c6ab540910c085e4ddb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tor-android-0.4.9.8-javadoc.jar",
+          "url": "tor-android-0.4.9.8-javadoc.jar",
+          "size": 301089,
+          "sha512": "94b184456ede764272425b3d11883ca23ac176cad7670e5013a25a35e93f5024e2ed77a47e3284482890984d2381feb9dd24402282b60e1d3f8453d22f1e8292",
+          "sha256": "2b6998d63eea0013aff8b783dc5b129934990c2ad515c13a49cc7549f70cd17f",
+          "sha1": "bdb8603d0bde16ef336f6ebee47f57f64db7763b",
+          "md5": "d127e04dd2506e75357b6f3be7aafae8"
+        }
+      ]
+    }
+  ]
+}
