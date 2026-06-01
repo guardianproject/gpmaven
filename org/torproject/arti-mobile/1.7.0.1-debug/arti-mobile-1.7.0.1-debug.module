@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.torproject",
+    "module": "arti-mobile",
+    "version": "1.7.0.1-debug",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-1.7.0.1-debug.aar",
+          "url": "arti-mobile-1.7.0.1-debug.aar",
+          "size": 19663723,
+          "sha512": "2903cab4ed658a25216fc740c48e519cd92118d0232701b467d9a3422433d48729a18cd7b2c969cfd0eda0fe0c9aa8b13fd9e4b7e531e3ec215b2560d02a2427",
+          "sha256": "98fd1244b68fa5317767b7098f799ed5c233043889461f3113bd0da308a11b00",
+          "sha1": "d7cdebc37bba7bbf4476552f800d15c0e39a4258",
+          "md5": "31f673dfb93a92d8365cefff088fa467"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "arti-mobile-1.7.0.1-debug.aar",
+          "url": "arti-mobile-1.7.0.1-debug.aar",
+          "size": 19663723,
+          "sha512": "2903cab4ed658a25216fc740c48e519cd92118d0232701b467d9a3422433d48729a18cd7b2c969cfd0eda0fe0c9aa8b13fd9e4b7e531e3ec215b2560d02a2427",
+          "sha256": "98fd1244b68fa5317767b7098f799ed5c233043889461f3113bd0da308a11b00",
+          "sha1": "d7cdebc37bba7bbf4476552f800d15c0e39a4258",
+          "md5": "31f673dfb93a92d8365cefff088fa467"
+        }
+      ]
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "arti-mobile-1.7.0.1-debug-sources.jar",
+          "url": "arti-mobile-1.7.0.1-debug-sources.jar",
+          "size": 9915,
+          "sha512": "a7f56eaae55cb8433a6d69a441c5b728b5ae592f1f2e43db86391ecfb097ee28f648486c16939dc9d828e3bacd0c8081566ad68e183ef535f20ac1f024c5b17e",
+          "sha256": "891a279a6ca23de3b56deda41cefaabc61788b89b5e85f3e7a93649c03a0ca90",
+          "sha1": "26ab6058ab99f0c303a700c396b56aa951a24fa0",
+          "md5": "ef33e47485828461d7880210edaf5781"
+        }
+      ]
+    }
+  ]
+}
