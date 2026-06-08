@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>info.guardianproject</groupId>
+  <artifactId>durindoor</artifactId>
+  <versioning>
+    <latest>0.0.7-debug</latest>
+    <release>0.0.7-debug</release>
+    <versions>
+      <version>0.0.2</version>
+      <version>0.0.3</version>
+      <version>0.0.4</version>
+      <version>0.0.5</version>
+      <version>0.0.6</version>
+      <version>0.0.6-debug</version>
+      <version>0.0.7-debug</version>
+    </versions>
+    <lastUpdated>20260608152211</lastUpdated>
+  </versioning>
+</metadata>

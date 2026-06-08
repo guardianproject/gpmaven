@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.guardianproject",
+    "module": "durindoor",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "durindoor-0.0.4.aar",
+          "url": "durindoor-0.0.4.aar",
+          "size": 455899,
+          "sha512": "7adfabaec19a25a4a10a6bcf634c0b9c3d2dbf34407a00435fa6d839719eae4d5403a7e85c0a3905a9f3c0f728d5e812388c1b5d3143fc34de2bbc98b5dad42c",
+          "sha256": "4a9289cc41a70a8b1dca94142422e4f4c1fd6c02ac51828ff237ce810d2e244e",
+          "sha1": "78c0bbc897fdd37d50252b7837c180c4996dd584",
+          "md5": "733a12c720451baf32eeee3c26b82cd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "durindoor-0.0.4.aar",
+          "url": "durindoor-0.0.4.aar",
+          "size": 455899,
+          "sha512": "7adfabaec19a25a4a10a6bcf634c0b9c3d2dbf34407a00435fa6d839719eae4d5403a7e85c0a3905a9f3c0f728d5e812388c1b5d3143fc34de2bbc98b5dad42c",
+          "sha256": "4a9289cc41a70a8b1dca94142422e4f4c1fd6c02ac51828ff237ce810d2e244e",
+          "sha1": "78c0bbc897fdd37d50252b7837c180c4996dd584",
+          "md5": "733a12c720451baf32eeee3c26b82cd1"
+        }
+      ]
+    }
+  ]
+}
