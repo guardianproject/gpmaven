@@ -3,17 +3,11 @@
   <groupId>info.guardianproject</groupId>
   <artifactId>durindoor</artifactId>
   <versioning>
-    <latest>0.0.7-debug</latest>
-    <release>0.0.7-debug</release>
+    <latest>0.0.8</latest>
+    <release>0.0.8</release>
     <versions>
-      <version>0.0.2</version>
-      <version>0.0.3</version>
-      <version>0.0.4</version>
-      <version>0.0.5</version>
-      <version>0.0.6</version>
-      <version>0.0.6-debug</version>
-      <version>0.0.7-debug</version>
+      <version>0.0.8</version>
     </versions>
-    <lastUpdated>20260608152211</lastUpdated>
+    <lastUpdated>20260609161343</lastUpdated>
   </versioning>
 </metadata>
