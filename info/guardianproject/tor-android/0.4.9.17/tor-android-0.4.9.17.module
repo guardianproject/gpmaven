@@ -31,13 +31,6 @@
           }
         },
         {
-          "group": "info.guardianproject",
-          "module": "jtorctl",
-          "version": {
-            "requires": "0.4.5.7"
-          }
-        },
-        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
@@ -49,11 +42,11 @@
         {
           "name": "tor-android-0.4.9.17.aar",
           "url": "tor-android-0.4.9.17.aar",
-          "size": 9706915,
-          "sha512": "01663c8d4c935a951aee674153c7af04495636420de04e15f48e4f37328069b9fd2fcfba642b452d5aac97e4aa10f0a1d6e46bc97fb619cc44f2fa1dccae5445",
-          "sha256": "9ffd3a8dab490733e1b29c7966922a9078989cd4ee386201a57d6c39d1403ddc",
-          "sha1": "df83d5f2ed8990dd63395ce8ab07e9b5f0cb27c4",
-          "md5": "5978ed8f2557554618f98e055c9b977d"
+          "size": 9732367,
+          "sha512": "66955a7a5f1d79af6910a6c64a419e03f1805426a8be072095dd9f22c307334911e914e741ba6369265127fc0714750144eb0ae6a8183970b186586eb6195a16",
+          "sha256": "6348724ccd8194baa364fd065f083e534c4ce2ede4af45414bbd755cfdb4512d",
+          "sha1": "48ff75c6a48a09ab2c2d0acf8f9a2e6086dfb7bb",
+          "md5": "32426c9d991fd4e60fa66fd603ebaf91"
         }
       ]
     },
@@ -74,13 +67,6 @@
           }
         },
         {
-          "group": "info.guardianproject",
-          "module": "jtorctl",
-          "version": {
-            "requires": "0.4.5.7"
-          }
-        },
-        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
@@ -92,11 +78,11 @@
         {
           "name": "tor-android-0.4.9.17.aar",
           "url": "tor-android-0.4.9.17.aar",
-          "size": 9706915,
-          "sha512": "01663c8d4c935a951aee674153c7af04495636420de04e15f48e4f37328069b9fd2fcfba642b452d5aac97e4aa10f0a1d6e46bc97fb619cc44f2fa1dccae5445",
-          "sha256": "9ffd3a8dab490733e1b29c7966922a9078989cd4ee386201a57d6c39d1403ddc",
-          "sha1": "df83d5f2ed8990dd63395ce8ab07e9b5f0cb27c4",
-          "md5": "5978ed8f2557554618f98e055c9b977d"
+          "size": 9732367,
+          "sha512": "66955a7a5f1d79af6910a6c64a419e03f1805426a8be072095dd9f22c307334911e914e741ba6369265127fc0714750144eb0ae6a8183970b186586eb6195a16",
+          "sha256": "6348724ccd8194baa364fd065f083e534c4ce2ede4af45414bbd755cfdb4512d",
+          "sha1": "48ff75c6a48a09ab2c2d0acf8f9a2e6086dfb7bb",
+          "md5": "32426c9d991fd4e60fa66fd603ebaf91"
         }
       ]
     },
@@ -112,11 +98,11 @@
         {
           "name": "tor-android-0.4.9.17-sources.jar",
           "url": "tor-android-0.4.9.17-sources.jar",
-          "size": 6652,
-          "sha512": "18f3449415d739d6ad3f2dedc4f9aa459d99f4040621c23e92d2e4c655328f4b2419252cd654f1ccbaba288a6e5168986dc0ecdd2e4b5a561766d73ba747bada",
-          "sha256": "237ef89d8e9f9a0c8ad43746e13f07ffe541b3dbe7b3544f67d3a136342d266c",
-          "sha1": "07a34c8582877014b9ef6f1159a196b9ccb22403",
-          "md5": "5e080b78147c568ef0cf28ee040bf20c"
+          "size": 29286,
+          "sha512": "b22ccd1aa993f5dccb6d5ae0cd1faf6dcaecb0918e077e5e4055c9f9a170f7de7cb75fb178ad6d34919a8d14be98fb470c7e1bbd2374193523fb889b158d9ce8",
+          "sha256": "0dd7880e4a86ac170c70d8e64ad4f72f353dda1a64791b7476be13f576dc0619",
+          "sha1": "2692d4b79bfdc72f730e89965bba78b6e7967ff9",
+          "md5": "f20a286d54e41ff3f3469506bcafca14"
         }
       ]
     },
@@ -132,11 +118,11 @@
         {
           "name": "tor-android-0.4.9.17-javadoc.jar",
           "url": "tor-android-0.4.9.17-javadoc.jar",
-          "size": 455733,
-          "sha512": "9e2ab1175f9a55ea9b688f4c03dbcd8cc888a775602be1b7892c991e2c78d31e365d021493c97672dbc360d967ebe05629d0f05d0f3a30a6adaf5617348fc67d",
-          "sha256": "21ff4bfb3af9dec418c65980fc7c8c866038d18d707828efcbb371ca08870fe8",
-          "sha1": "5a4ebc3bc8c8390a7882e8bd13e535a333812a32",
-          "md5": "fb663025f69d6fc52f7f4f1edd6d224c"
+          "size": 520844,
+          "sha512": "7fbe5ab308f0f7ec33eee6218885f1b04a91d0797d6d9e5cd46f61521cd9f1358d92afe8fdbf0ef3c4786e432308ee1197e2e97323de5527919ea3dea1335511",
+          "sha256": "fb08d642e7bc4f0bfa8763e975e811bbff25acae3ec3bb428da375154bc1f546",
+          "sha1": "8a74f0cfec34da1cd05d892f2cec204b16cd87e9",
+          "md5": "6079b33c6afadc73fbfbe5c81ddd6cad"
         }
       ]
     }
